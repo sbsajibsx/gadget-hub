@@ -1,0 +1,113 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Galaxy S21",
+      "product_image": "https://i.ibb.co.com/HXXM7YP/Galaxy-S21.webp",
+      "category": "Smartphone",
+      "price": 799,
+      "description": "The Galaxy S21 offers a sleek design, powerful performance, and a stunning camera.",
+      "Specification": ["6.2-inch display", "8GB RAM", "4000mAh battery", "128GB storage"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 2,
+      "product_title": "iPhone 13",
+      "product_image": "https://i.ibb.co.com/RHNxm6j/3408-30421.jpg",
+      "category": "Smartphone",
+      "price": 999,
+      "description": "The latest iPhone 13 with a powerful A15 Bionic chip and an improved dual-camera system.",
+      "Specification": ["6.1-inch display", "128GB storage", "A15 Bionic chip", "5G support"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 3,
+      "product_title": "MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/2vCY3P1/2323-92738.jpg",
+      "category": "Laptop",
+      "price": 999,
+      "description": "MacBook Air with Apple’s M1 chip delivers incredible performance in a thin design.",
+      "Specification": ["13.3-inch Retina display", "8GB RAM", "256GB SSD", "Apple M1 chip"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 4,
+      "product_title": "Surface Laptop 4",
+      "product_image": "https://i.ibb.co.com/kmsSMRc/microsoft-surface-laptop-4-core-i7-laptop-1-1000x1000-jpg.webp",
+      "category": "Laptop",
+      "price": 1199,
+      "description": "Microsoft Surface Laptop 4 with stunning display and long battery life.",
+      "Specification": ["13.5-inch display", "8GB RAM", "512GB SSD", "Intel Core i5"],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": 5,
+      "product_title": "Pixel 6",
+      "product_image": "https://i.ibb.co.com/zbRjbDX/61ru-Kkv-VIx-L-SL1000.jpg",
+      "category": "Smartphone",
+      "price": 599,
+      "description": "Google's Pixel 6 with a revolutionary camera and Google’s Tensor chip.",
+      "Specification": ["6.4-inch display", "8GB RAM", "128GB storage", "Google Tensor chip"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 6,
+      "product_title": "Galaxy Watch 4",
+      "product_image": "https://i.ibb.co.com/nr8x80C/Samsung-Galaxy-Watch-4-40mm-R860-1.jpg",
+      "category": "Smartwatch",
+      "price": 249,
+      "description": "Samsung Galaxy Watch 4 for advanced health and fitness tracking.",
+      "Specification": ["1.4-inch display", "Wear OS", "GPS", "Bluetooth 5.0"],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": 7,
+      "product_title": "Apple Watch Series 7",
+      "product_image": "https://i.ibb.co.com/C6Vmxwf/Apple-Watch-Series-7-GPS-45mm-Midnight-Aluminum-Case-with-Midnight-Sport-Band-Regular-d2cca1d2-a49a.webp",
+      "category": "Smartwatch",
+      "price": 399,
+      "description": "Apple Watch Series 7 with a larger screen and advanced health tracking features.",
+      "Specification": ["1.9-inch display", "GPS", "Blood Oxygen Sensor", "Water-resistant"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 8,
+      "product_title": "iPad Pro 11",
+      "product_image": "https://i.ibb.co.com/7bXnyVZ/i-Pad-Pro-11inch-910x1155.jpg",
+      "category": "Tablet",
+      "price": 799,
+      "description": "The new iPad Pro 11-inch with Apple’s M1 chip for high performance.",
+      "Specification": ["11-inch display", "128GB storage", "M1 chip", "5G support"],
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": 9,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/bFfMtN2/YIHa-Arqqp5-Ndn-QDP4wm-TKSGAptgv-GYq-YPVXw-Ei-Ju.jpg",
+      "category": "Laptop",
+      "price": 999,
+      "description": "Dell XPS 13 with ultra-thin bezels and impressive performance.",
+      "Specification": ["13.4-inch display", "8GB RAM", "256GB SSD", "Intel Core i5"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 10,
+      "product_title": "MacBook Pro 16 M1",
+      "product_image": "https://i.ibb.co.com/hsrj9FQ/NEWCustomized-Apple-Mac-Book-Pro16-Inch-Laptopwith32-GB64-GBM1-Pro-M1-Max-Chip2021-USAModel-USAStock.webp",
+      "category": "Laptop",
+      "price": 2499,
+      "description": "MacBook Pro 16 with the powerful M1 Max chip for intensive tasks.",
+      "Specification": ["16-inch Retina display", "16GB RAM", "512GB SSD", "Apple M1 Max"],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  
