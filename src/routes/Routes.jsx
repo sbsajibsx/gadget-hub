@@ -10,6 +10,7 @@ const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayOut></MainLayOut>,
+      loader: ()=> fetch('/Gadgets.json'),
       errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
@@ -27,7 +28,8 @@ const router = createBrowserRouter([
         },
         {
             path: "/dashboard",
-            element: <Dashboard></Dashboard>
+            element: <Dashboard></Dashboard>,
+            loader: ()=> fetch('/Gadgets.json')
         }
       ]
     },

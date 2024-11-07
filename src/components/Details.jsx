@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoIosHeartEmpty } from "react-icons/io";
+import { addToStoredCartList, addToStoredWishList } from "../Utility/AddToDb";
 
 const Details = () => {
   const { product_id } = useParams();
@@ -8,7 +9,6 @@ const Details = () => {
   const id = parseInt(product_id);
   const gadget = data.find((gadget) => gadget.product_id === id);
   const {
-    product_id: currentId,
     product_title,
     price,
     availability,
@@ -17,6 +17,14 @@ const Details = () => {
     rating,
     product_image,
   } = gadget;
+
+  const handleAddCart = (id)=>{
+    addToStoredCartList(id);
+  }
+  const handleAddWish = (id)=>{
+    addToStoredWishList(id);
+  }
+
   return (
     <div className="md:relative bg-[#9538E2] md:mb-96">
       <div className="w-9/12 mx-auto md:pt-4 md:pb-72 p-4 space-y-2">
@@ -52,8 +60,8 @@ const Details = () => {
             <p>{rating}</p>
           </div>
           <div className="flex items-center">
-          <button className="btn btn-sm bg-[#9538E2] mr-3">Add To Card <MdOutlineShoppingCart /></button>
-          <button className="p-2 rounded-full border"><IoIosHeartEmpty /></button>
+          <button onClick={()=> handleAddCart(product_id)} className="btn btn-sm bg-[#9538E2] mr-3">Add To Card <MdOutlineShoppingCart /></button>
+          <button onClick={()=> handleAddWish(product_id)} className="p-2 rounded-full border"><IoIosHeartEmpty /></button>
           </div>
         </div>
       </div>
