@@ -1,7 +1,13 @@
+import { useState } from "react";
 import { MdOutlineCancel } from "react-icons/md";
 
 const Dgedget = ({cart}) => {
-    const {product_title, product_image, price, description} = cart;
+    const {product_title, product_image, price, description, product_id} = cart;
+    const [carts, setCarts] = useState([]);
+    const handleDelete= id =>{
+        const removeCart = carts.filter((p) => p.id != id);
+        setCarts(removeCart);
+    }
     return (
         <div className="flex justify-between p-4">
             <div className="flex items-center">
@@ -15,7 +21,7 @@ const Dgedget = ({cart}) => {
                 </div>
             </div>
             <div>
-                <button className="text-red-600 text-4xl"><MdOutlineCancel /></button>
+                <button className="text-red-600 text-4xl" onClick={()=>handleDelete(product_id)}><MdOutlineCancel /></button>
             </div>
         </div>
     );
